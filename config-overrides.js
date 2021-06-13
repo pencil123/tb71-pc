@@ -6,7 +6,14 @@ module.exports = override(
     addWebpackAlias({
         "@": path.resolve(__dirname,"src")
     }),
-      // 修改Less 中的变量
+    // antd按需加载 - babel-plugin-import
+  fixBabelImports("import", {
+    libraryName: 'antd',
+    libraryDirectory: "es",
+    style: true,
+  }),
+
+    // 修改Less 中的变量
   addLessLoader({
     javascriptEnabled: true,
      strictMath: false,
@@ -23,10 +30,5 @@ module.exports = override(
     },
   }),
   
-    // antd-mobile按需加载 - babel-plugin-import
-  fixBabelImports("import", {
-    libraryName: 'antd',
-    libraryDirectory: "es",
-    style: true,
-  }),
+
 )
