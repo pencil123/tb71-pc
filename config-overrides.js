@@ -1,4 +1,4 @@
-const { override, addWebpackAlias , addLessLoader } = require('customize-cra');
+const { override, addWebpackAlias , addLessLoader,fixBabelImports } = require('customize-cra');
 const path = require('path');
 
 module.exports = override(
@@ -21,5 +21,12 @@ module.exports = override(
     cssModules: {
       localIdentName: "[path][name]__[local]--[hash:base64:5]", // if you use CSS Modules, and custom `localIdentName`, default is '[local]--[hash:base64:5]'.
     },
-  })
+  }),
+  
+    // antd-mobile按需加载 - babel-plugin-import
+  fixBabelImports("import", {
+    libraryName: 'antd',
+    libraryDirectory: "es",
+    style: true,
+  }),
 )
