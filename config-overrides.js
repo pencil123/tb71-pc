@@ -20,6 +20,7 @@ module.exports = override(
     noIeCompat: true,
     modifyVars: {
       "@primary-color":"#005fb3",
+      "@layout-header-background":"#f5f5f5",
     },
     cssLoaderOptions: {}, // .less file used css-loader option, not all CSS file.
     cssModules: {
