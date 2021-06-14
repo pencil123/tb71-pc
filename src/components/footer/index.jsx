@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-
+import { Layout } from "antd";
+const {Footer } = Layout;
 export class index extends Component {
     render() {
         return (
-            <div>
+            <Footer>
             <a href="https://beian.miit.gov.cn/">鲁ICP备18001334号-5</a>
-            </div>
+            </Footer>
         )
     }
 }

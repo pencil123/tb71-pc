@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {HashRouter, Switch, Route, Redirect} from 'react-router-dom'
+import {HashRouter, Switch, Route} from 'react-router-dom'
 import Home from '../pages/home/Home';
 
 export class index extends Component {

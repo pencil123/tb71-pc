@@ -19,10 +19,7 @@ module.exports = override(
      strictMath: false,
     noIeCompat: true,
     modifyVars: {
-      "@layout-header-background": "#cf1322", // for example, you use Ant Design to change theme color.
-      "@component-background": "#cf1322",
-      "@background-color-light":"#0d2749",
-      "@primary-1":"#005fb3",
+      "@primary-color":"#005fb3",
     },
     cssLoaderOptions: {}, // .less file used css-loader option, not all CSS file.
     cssModules: {
