@@ -19,8 +19,8 @@ module.exports = override(
      strictMath: false,
     noIeCompat: true,
     modifyVars: {
-      "@layout-header-background": "#0d325e", // for example, you use Ant Design to change theme color.
-      "@component-background": "#0d325e",
+      "@layout-header-background": "#cf1322", // for example, you use Ant Design to change theme color.
+      "@component-background": "#cf1322",
       "@background-color-light":"#0d2749",
       "@primary-1":"#005fb3",
     },
