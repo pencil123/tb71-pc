@@ -20,6 +20,7 @@ export class Index extends Component {
 }
 
 const headerContent = {
+    padding:0,
   height: 35,
   lineHeight: "35px",
   borderBottom: "1px solid #fff",
