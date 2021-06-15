@@ -1,32 +1,12 @@
 import React, { Component } from "react";
 import { Row, Col, Image } from "antd";
-const imgList = [
-  "https://img.alicdn.com/imgextra/i2/O1CN01R0zbQB1rI3QA5zD7E_!!6000000005607-2-tps-209-75.png",
-  "https://img.alicdn.com/imgextra/i2/O1CN01x7kTNX1HuEGhj7rRo_!!6000000000817-2-tps-209-75.png",
-  "https://img.alicdn.com/imgextra/i2/O1CN01jOXJT41YY6bY45n4v_!!6000000003070-2-tps-209-75.png",
-  "https://img.alicdn.com/imgextra/i3/O1CN01nrmR3z217eaNzY1m5_!!6000000006938-2-tps-209-75.png",
-  "https://img.alicdn.com/imgextra/i3/O1CN01VED6ho1xql80bF4px_!!6000000006495-2-tps-209-75.png",
-];
 
 export class Home extends Component {
   render() {
     return (
       <>
         <Row justify="center">
-          <Col lg={16} md={20} sm={23} xs={22} style={{ background: "white" }}>
-            <Row justify="center" style={{ background: "blue" }}>
-              <Col span={2} offset={1}>
-                <Image src="https://img.alicdn.com/imgextra/i1/O1CN01spsxsM1thMXZ31bBd_!!6000000005933-2-tps-90-80.png" />
-              </Col>
-              {imgList.map((img) => {
-                return (
-                  <Col span={4}>
-                    <Image src={img} />
-                  </Col>
-                );
-              })}
-            </Row>
-
+          <Col lg={19} md={20} sm={23} xs={22} style={{ background: "white" }}>
             <Row style={{ background: "green" }}>
               <Col span={6}>浮动的Logo</Col>
               <Col span={12}>Search 搜索框</Col>
