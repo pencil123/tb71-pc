@@ -14,7 +14,7 @@ export class Index extends Component {
     return (
       <Header style={headerContent}>
         <Row justify="center" style={{ height: 35 }}>
-          <Col lg={19} md={20} sm={23} xs={22}>
+          <Col lg={18} md={18}>
             <Row justify="center">
               <Col span={10}>中国大陆|用户账号|手机逛淘宝</Col>
               <Col span={14}>
@@ -24,7 +24,7 @@ export class Index extends Component {
           </Col>
         </Row>
         <Row justify="center" style={{ background: "#ff8651", height: 91 }}>
-          <Col lg={19} md={20} sm={23} xs={22}>
+          <Col lg={18} md={18}>
             <Row justify="center" gutter={16} style={{ padding: "10px" }}>
               <Col span={2}>
                 <Image src="https://img.alicdn.com/imgextra/i1/O1CN01spsxsM1thMXZ31bBd_!!6000000005933-2-tps-90-80.png" />
