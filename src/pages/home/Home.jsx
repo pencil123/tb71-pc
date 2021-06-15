@@ -13,8 +13,8 @@ export class Home extends Component {
     return (
       <>
         <Row justify="center">
-          <Col span={16} style={{ background: "white" }}>
-            <Row justify="center" gutter={16} style={{ background: "blue" }}>
+          <Col lg={16} md={20} sm={23} xs={22} style={{ background: "white" }}>
+            <Row justify="center" style={{ background: "blue" }}>
               <Col span={2} offset={1}>
                 <Image src="https://img.alicdn.com/imgextra/i1/O1CN01spsxsM1thMXZ31bBd_!!6000000005933-2-tps-90-80.png" />
               </Col>
@@ -42,10 +42,37 @@ export class Home extends Component {
             </Row>
 
             <Row style={{ background: "green" }}>
-              <Col span={6}>女装 / 内衣 / 家居<br />女鞋 / 男鞋 / 箱包<br />母婴 / 童装 / 玩具<br />
-                男装 / 运动户外<br />美妆 / 彩妆 / 个护<br />手机 / 数码 / 企业<br />大家电 / 生活电器<br />零食 / 生鲜 / 茶酒<br />
-                厨具 / 收纳 / 清洁<br />家纺 / 家饰 / 鲜花<br />图书音像 / 文具<br />医药保健 / 进口<br />汽车 / 二手车 / 用品<br />
-                房产 / 装修家具 / 建材<br />手表 / 眼镜 / 珠宝饰品</Col>
+              <Col span={6}>
+                女装 / 内衣 / 家居
+                <br />
+                女鞋 / 男鞋 / 箱包
+                <br />
+                母婴 / 童装 / 玩具
+                <br />
+                男装 / 运动户外
+                <br />
+                美妆 / 彩妆 / 个护
+                <br />
+                手机 / 数码 / 企业
+                <br />
+                大家电 / 生活电器
+                <br />
+                零食 / 生鲜 / 茶酒
+                <br />
+                厨具 / 收纳 / 清洁
+                <br />
+                家纺 / 家饰 / 鲜花
+                <br />
+                图书音像 / 文具
+                <br />
+                医药保健 / 进口
+                <br />
+                汽车 / 二手车 / 用品
+                <br />
+                房产 / 装修家具 / 建材
+                <br />
+                手表 / 眼镜 / 珠宝饰品
+              </Col>
               <Col span={12}>Search 搜索框</Col>
               <Col span={6}>二维码</Col>
             </Row>
