@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Image } from "antd";
+import { Row, Col } from "antd";
 import rightImg from "@/assets/right.png";
 import leftImg from "@/assets/left.png";
 
@@ -8,14 +8,20 @@ export class Home extends Component {
     return (
       <>
         <Row justify="center">
-            <Col lg={3} md={3} style={{ backgroundImage:`url(${leftImg})`,backgroundPositionX:"-172px",backgroundRepeat:"no-repeat"}} > </Col>
-          <Col lg={18} md={18} style={{ background: "white" }}>
-            <Row style={{ background: "green" }}>
+          <Col lg={3} md={3} style={{
+              backgroundImage: `url(${leftImg})`,
+              backgroundPositionX: "-172px",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+          </Col>
+          <Col lg={18} md={18} style={{ background: "white"}}>
+            <Row>
               <Col span={6}>浮动的Logo</Col>
               <Col span={12}>Search 搜索框</Col>
               <Col span={6}>二维码</Col>
             </Row>
-            <Row style={{ background: "pink" }}>
+            <Row>
               <Col span={6}>主题市场</Col>
               <Col span={18}>
                 天猫 聚划算 天猫超市|司法拍卖 飞猪旅行 天天特卖 淘小铺|造点新货
@@ -23,7 +29,7 @@ export class Home extends Component {
               </Col>
             </Row>
 
-            <Row style={{ background: "green" }}>
+            <Row>
               <Col span={6}>
                 女装 / 内衣 / 家居
                 <br />
@@ -53,18 +59,7 @@ export class Home extends Component {
                 <br />
                 房产 / 装修家具 / 建材
                 <br />
-                手表 / 眼镜 / 珠宝饰品
-
-
-
-
-
-
-
-
-
-
-                                女装 / 内衣 / 家居
+                手表 / 眼镜 / 珠宝饰品 女装 / 内衣 / 家居
                 <br />
                 女鞋 / 男鞋 / 箱包
                 <br />
@@ -92,12 +87,7 @@ export class Home extends Component {
                 <br />
                 房产 / 装修家具 / 建材
                 <br />
-                手表 / 眼镜 / 珠宝饰品
-
-
-
-
-                                女装 / 内衣 / 家居
+                手表 / 眼镜 / 珠宝饰品 女装 / 内衣 / 家居
                 <br />
                 女鞋 / 男鞋 / 箱包
                 <br />
@@ -125,12 +115,7 @@ export class Home extends Component {
                 <br />
                 房产 / 装修家具 / 建材
                 <br />
-                手表 / 眼镜 / 珠宝饰品
-
-
-
-
-                                女装 / 内衣 / 家居
+                手表 / 眼镜 / 珠宝饰品 女装 / 内衣 / 家居
                 <br />
                 女鞋 / 男鞋 / 箱包
                 <br />
@@ -164,7 +149,8 @@ export class Home extends Component {
               <Col span={6}>二维码</Col>
             </Row>
           </Col>
-            <Col lg={3} md={3} style={{background:`url(${rightImg}) no-repeat`}} > </Col>
+          <Col lg={3} md={3} style={{ background: `url(${rightImg}) no-repeat` }} >
+          </Col>
         </Row>
       </>
     );
