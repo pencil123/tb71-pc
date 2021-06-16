@@ -10,7 +10,7 @@ export class Home extends Component {
         <Row justify="center">
           <Col xxl={4} xl={3} style={{
               backgroundImage: `url(${leftImg})`,
-              backgroundPositionX: "-172px",
+              backgroundPosition: "top right",
               backgroundRepeat: "no-repeat",
             }}
           >
