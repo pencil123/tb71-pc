@@ -8,14 +8,14 @@ export class Home extends Component {
     return (
       <>
         <Row justify="center">
-          <Col xxl={2} xl={3} style={{
+          <Col xxl={4} xl={3} style={{
               backgroundImage: `url(${leftImg})`,
               backgroundPositionX: "-172px",
               backgroundRepeat: "no-repeat",
             }}
           >
           </Col>
-          <Col xxl={20} xl={18} style={{ background: "white"}}>
+          <Col xxl={16} xl={18} style={{ background: "white"}}>
             <Row>
               <Col span={6}>浮动的Logo</Col>
               <Col span={12}>Search 搜索框</Col>
@@ -149,7 +149,7 @@ export class Home extends Component {
               <Col span={6}>二维码</Col>
             </Row>
           </Col>
-          <Col xxl={2} xl={3} style={{ background: `url(${rightImg}) no-repeat` }} >
+          <Col xxl={4} xl={3} style={{ background: `url(${rightImg}) no-repeat` }} >
           </Col>
         </Row>
       </>
