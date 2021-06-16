@@ -149,7 +149,7 @@ export class Home extends Component {
               <Col span={6}>二维码</Col>
             </Row>
           </Col>
-          <Col xxl={20} xl={3} style={{ background: `url(${rightImg}) no-repeat` }} >
+          <Col xxl={2} xl={3} style={{ background: `url(${rightImg}) no-repeat` }} >
           </Col>
         </Row>
       </>
