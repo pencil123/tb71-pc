@@ -4,7 +4,7 @@ import { Row, Col } from "antd";
 export class Nav extends Component {
   render() {
     return (
-      <Row>
+      <Row style={{background: "white" }}>
         <Col span={6}>主题市场</Col>
         <Col span={18}>
           天猫 聚划算 天猫超市|司法拍卖 飞猪旅行 天天特卖 淘小铺|造点新货

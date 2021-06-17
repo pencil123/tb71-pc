@@ -4,7 +4,7 @@ import { Row, Col } from "antd";
 export class Flash extends Component {
   render() {
     return (
-      <Row>
+      <Row style={{background: "white" }}>
         <Col span={6}>
           女装 / 内衣 / 家居
           <br />
