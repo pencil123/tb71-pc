@@ -12,7 +12,7 @@ export class SearchTab extends Component {
   render() {
     return (
       <Row style={{ borderRadius: "18px 18px 0px 0px", background: "white" }}>
-        <Col span={6} style={{ paddingLeft: 20 }}>
+        <Col span={6} style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
           <Image src={flashLogo} width={160} height={120}></Image>
         </Col>
         <Col span={12} style={{ display: "flex" }}>
