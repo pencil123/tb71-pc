@@ -5,6 +5,11 @@
     margin: auto;
 }
 
+@screen-xs-min: 576px;
+@screen-sm-min: 576px;
+@screen-md-min: 768px;
+
+
 .make-container(@minWidth, @breakpoint) {
     @media (min-width: @minWidth) {
         .container {
