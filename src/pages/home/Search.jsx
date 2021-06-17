@@ -3,7 +3,7 @@ import { Row, Col, Image } from "antd";
 import { Input, Form, Select } from "antd";
 
 import flashLogo from "@/assets/logoflash.gif";
-
+import "./home.less";
 const { Search } = Input;
 const { Option } = Select;
 
@@ -11,24 +11,39 @@ export class SearchTab extends Component {
   render() {
     return (
       <Row style={{ borderRadius: "18px 18px 0px 0px", background: "white" }}>
-        <Col span={6} style={{ marginLeft: 20 }}>
+        <Col span={6} style={{ paddingLeft: 20 }}>
           <Image src={flashLogo} width={160} height={120}></Image>
         </Col>
-        <Col span={12}>
-          <Form >
-            {/* <Input.Group compact>
-              <Select defaultValue="1">
-                <Option value="1">Between</Option>
-                <Option value="2">Except</Option>
-              </Select>
-              <Search
-                placeholder="input search text"
-                allowClear
-                enterButton="搜索"
-                size="large"
-              />
-            </Input.Group> */}
-          </Form>
+        <Col span={12} style={{ display: "flex" }}>
+          <div style={{ alignItems: "center", display: "flex" }}>
+            <Form
+              layout="inline"
+              style={{
+                border: "1px solid red",
+                borderRadius: "20px",
+                height:45,
+              }}
+            >
+              <Form.Item style={{marginLeft:2}}>
+                <Select defaultValue="1" size="large" bordered={false} style={{height:45}}>
+                  <Option value="1" style={{height:45}}>宝贝</Option>
+                  <Option value="2">天猫</Option>
+                  <Option value="3">店铺</Option>
+                </Select>
+              </Form.Item>
+              <Form.Item style={{marginLeft:"0px"}}><div style={{height:45,border:"1px solid #d0d0d0",display:"inline-block"}}></div></Form.Item>
+              <Form.Item>
+                <Search
+                  prefix="@"
+                  bordered={false}
+                  placeholder="Jenkins2权威指南"
+                  allowClear
+                  enterButton="搜索"
+                  size="large"
+                />
+              </Form.Item>
+            </Form>
+          </div>
         </Col>
         <Col span={6}>二维码</Col>
       </Row>
