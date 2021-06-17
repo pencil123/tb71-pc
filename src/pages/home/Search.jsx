@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Row, Col, Image } from "antd";
 import { Input, Form, Select } from "antd";
+import { Button } from 'antd';
 
 import flashLogo from "@/assets/logoflash.gif";
-import "./home.less";
-const { Search } = Input;
+import ewm from "@/assets/erweima.png";
+import "./search.less";
 const { Option } = Select;
 
 export class SearchTab extends Component {
@@ -15,16 +16,9 @@ export class SearchTab extends Component {
           <Image src={flashLogo} width={160} height={120}></Image>
         </Col>
         <Col span={12} style={{ display: "flex" }}>
-          <div style={{ alignItems: "center", display: "flex" }}>
-            <Form
-              layout="inline"
-              style={{
-                border: "1px solid red",
-                borderRadius: "20px",
-                height:45,
-              }}
-            >
-              <Form.Item style={{marginLeft:2}}>
+          <div className="search_center" >
+            <Form layout="inline" >
+              <Form.Item >
                 <Select defaultValue="1" size="large" bordered={false} style={{height:45}}>
                   <Option value="1" style={{height:45}}>宝贝</Option>
                   <Option value="2">天猫</Option>
@@ -32,20 +26,18 @@ export class SearchTab extends Component {
                 </Select>
               </Form.Item>
               <Form.Item style={{marginLeft:"0px"}}><div style={{height:45,border:"1px solid #d0d0d0",display:"inline-block"}}></div></Form.Item>
+              <Form.Item style={{flexGrow:1}}>
+                <Input placeholder="Jenkins2权威指南" size="large" bordered={false} style={{height:44}} />
+              </Form.Item>
               <Form.Item>
-                <Search
-                  prefix="@"
-                  bordered={false}
-                  placeholder="Jenkins2权威指南"
-                  allowClear
-                  enterButton="搜索"
-                  size="large"
-                />
+                  <Button type="primary" style={{background:"#ff8651",borderStyle:"none",marginTop:1}} shape="round"  size="large">搜索</Button>
               </Form.Item>
             </Form>
           </div>
         </Col>
-        <Col span={6}>二维码</Col>
+        <Col span={6} style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+            <Image src={ewm} width={64} height={64}></Image>
+        </Col>
       </Row>
     );
   }
