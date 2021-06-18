@@ -139,10 +139,13 @@ onChange =() =>{
             </Col>
           </Row>
         </Col>
-        <Col span={6} className="flash_left">
+        <Col span={6} className="flash_right">
             <div>
-                <Image src="//wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=50&height=50&type=sns&_input_charset=UTF-8"></Image>
+                <img alt="img" src="//wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=50&height=50&type=sns&_input_charset=UTF-8" className="ant-image-img" />
                 <p style={{padding:"0 auto"}}>Hi! 你好</p>
+            </div>
+            <div>
+                
             </div>
         </Col>
       </Row>
