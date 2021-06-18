@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import { Row, Col,Carousel,Image} from "antd";
+import { Row, Col,Carousel,Image,Card } from "antd";
 import "./flash.less";
 import Tm from "@/assets/tianmao.png";
 import center_left_top from "@/assets/flash_center_left_top.png";
 import center_left_bottom from "@/assets/flash_center_left_bottom.jpg";
 
+const { Meta } = Card;
 const contentStyle1 = {
   height: 280,
   color: '#fff',
@@ -138,7 +139,12 @@ onChange =() =>{
             </Col>
           </Row>
         </Col>
-        <Col span={6}>二维码</Col>
+        <Col span={6} className="flash_left">
+            <div>
+                <Image src="//wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=50&height=50&type=sns&_input_charset=UTF-8"></Image>
+                <p style={{padding:"0 auto"}}>Hi! 你好</p>
+            </div>
+        </Col>
       </Row>
     );
   }
