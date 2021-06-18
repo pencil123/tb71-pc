@@ -21,7 +21,7 @@ export class Home extends Component {
               backgroundRepeat: "no-repeat",
             }}
           ></Col>
-          <Col xxl={16} xl={18}>
+          <Col xxl={15} xl={18}>
             <div>
               <SearchTab />
               <Nav />

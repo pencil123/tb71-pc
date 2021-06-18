@@ -6,7 +6,9 @@ export class Flash extends Component {
   render() {
     return (
       <Row style={{background: "white" }}>
-        <Col span={5} style={{background:"#f5f5f5"}}>
+        <Col span={18} style={{background:"#f5f5f5"}}>
+            <Row>
+                <Col span={5}>
             <ul className="flash_left">
                 <li>女装 / 内衣 / 家居
                     <i>&gt;</i>
@@ -54,9 +56,11 @@ export class Flash extends Component {
                     <i>&gt;</i>
                 </li>
             </ul>
+            </Col>
+           <Col span={19}>Search 搜索框</Col>
+        </Row>
         </Col>
-        <Col span={12}>Search 搜索框</Col>
-        <Col span={7}>二维码</Col>
+        <Col span={6}>二维码</Col>
       </Row>
     );
   }
