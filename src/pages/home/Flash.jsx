@@ -139,13 +139,19 @@ onChange =() =>{
             </Col>
           </Row>
         </Col>
-        <Col span={6} className="flash_right">
-            <div>
+        <Col span={6}>
+            <div className="flash_right">
                 <img alt="img" src="//wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=50&height=50&type=sns&_input_charset=UTF-8" className="ant-image-img" />
-                <p style={{padding:"0 auto"}}>Hi! 你好</p>
+                <p style={{padding:"0 auto",fontWeight:400,textAlign:"center",marginBottom:0}}>Hi! 你好</p>
+                <div style={{padding:"0 auto"}}>
+                    <span style={{marginRight:5}}><i></i><p>领淘金币抵钱</p></span>
+                    <span><i></i><p>会员俱乐部</p></span>
+                </div>
             </div>
-            <div>
-                
+            <div className="member_ft" style={{height:40,textAlign:"center"}}>
+                <span>登录</span>
+                <span>注册</span>
+                <span>开店</span>
             </div>
         </Col>
       </Row>
