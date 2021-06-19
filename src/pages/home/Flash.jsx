@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Row, Col,Carousel,Image,Card } from "antd";
 import "./flash.less";
 import Tm from "@/assets/tianmao.png";
+import together from "@/assets/flash_right_together.jpg";
 import center_left_top from "@/assets/flash_center_left_top.png";
 import center_left_bottom from "@/assets/flash_center_left_bottom.jpg";
 
@@ -152,6 +153,18 @@ onChange =() =>{
                 <span>登录</span>
                 <span>注册</span>
                 <span>开店</span>
+            </div>
+            <div>
+                <img style={{width:300}} src={together} alt="together"></img>
+            </div>
+            <div className="web_notice">
+                <div>
+                    <span>公告</span>
+                    <span>规则</span>
+                    <span>安全</span>
+                    <span>公益</span>
+                    <span>千牛</span>
+                    </div>
             </div>
         </Col>
       </Row>
