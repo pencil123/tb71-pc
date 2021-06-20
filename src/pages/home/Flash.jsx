@@ -5,6 +5,11 @@ import Tm from "@/assets/tianmao.png";
 import together from "@/assets/flash_right_together.jpg";
 import center_left_top from "@/assets/flash_center_left_top.png";
 import center_left_bottom from "@/assets/flash_center_left_bottom.jpg";
+import dingding from "@/assets/dingding.webp";
+import taobao from "@/assets/taobao.webp";
+import taoxiaopu from "@/assets/taoxiaopu.webp";
+import tianmao from "@/assets/tianmao.webp";
+import zhifubao from "@/assets/zhifubao.webp";
 
 const { Meta } = Card;
 const contentStyle1 = {
@@ -209,7 +214,16 @@ onChange =() =>{
             <div className="ali_app">
                 <div>
                     <span>阿里APP</span>
-                    <a href="aliyun">更多</a>
+                    <a href="aliyun">更多&gt;</a>
+                </div>
+                <div>
+                    <ul>
+                        <li><img src={taobao} alt="1"></img></li>
+                        <li><img src={tianmao} alt="2"></img></li>
+                        <li><img src={zhifubao} alt="3"></img></li>
+                        <li><img src={dingding} alt="4"></img></li>
+                        <li><img src={taoxiaopu} alt="5"></img></li>
+                    </ul>
                 </div>
             </div>
         </Col>
