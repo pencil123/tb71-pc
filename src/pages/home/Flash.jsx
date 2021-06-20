@@ -164,7 +164,11 @@ onChange =() =>{
                     <span>安全</span>
                     <span>公益</span>
                     <span>千牛</span>
-                    </div>
+                </div>
+                <div>
+                    <span>千牛头条</span>
+                    <span>新手开店</span>
+                </div>
             </div>
         </Col>
       </Row>
