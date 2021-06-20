@@ -170,6 +170,48 @@ onChange =() =>{
                     <span>新手开店</span>
                 </div>
             </div>
+            <div className="conve">
+                <ul>
+                    <li>
+                        <i style={{backgroundPosition:"0 0"}}></i>
+                        <p>充话费</p>
+                    </li>
+                    <li>
+                        <i style={{backgroundPosition:"0 -87px"}}></i>
+                        <p>旅行</p>
+                    </li>
+                    <li>
+                        <i style={{backgroundPosition:"0 -44px"}}></i>
+                        <p>车险</p>
+                    </li>
+                    <li>
+                        <i style={{backgroundPosition:"0 -132px"}}></i>
+                        <p>游戏</p>
+                    </li>
+                    <li>
+                        <i style={{backgroundPosition:"0 -176px"}}></i>
+                        <p>彩票</p>
+                    </li>
+                    <li>
+                        <i style={{backgroundPosition:"0 -220px"}}></i>
+                        <p>电影</p>
+                    </li>
+                    <li>
+                        <i style={{backgroundPosition:"0 -264px"}}></i>
+                        <p>酒店</p>
+                    </li>
+                    <li>
+                        <i style={{backgroundPosition:"0 -308px"}}></i>
+                        <p>理财</p>
+                    </li>
+                </ul>
+            </div>
+            <div className="ali_app">
+                <div>
+                    <span>阿里APP</span>
+                    <a href="aliyun">更多</a>
+                </div>
+            </div>
         </Col>
       </Row>
     );
