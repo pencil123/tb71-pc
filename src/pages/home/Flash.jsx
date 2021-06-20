@@ -121,9 +121,7 @@ onChange =() =>{
               </div>
               <Carousel afterChange={this.onChange}>
                   <div>
-                    <h3 style={contentStyle2}>
-                        1
-                    </h3>
+                    <h3 style={contentStyle2}>1</h3>
                   </div>
                   <div>
                     <h3 style={contentStyle2}>2</h3>
