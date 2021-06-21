@@ -4,6 +4,7 @@ import { Row, Col } from "antd";
 import SearchTab from "./Search";
 import Nav from "./Nav";
 import Flash from "./Flash";
+import Goods from "./goods";
 import "./home.less";
 
 export class Home extends Component {
@@ -16,6 +17,7 @@ export class Home extends Component {
               <SearchTab />
               <Nav />
               <Flash />
+              <Goods />
             </div>
           </Col>
         </Row>
