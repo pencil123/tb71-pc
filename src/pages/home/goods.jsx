@@ -18,22 +18,27 @@ export class Goods extends Component {
           <li>
               <img src="//img.alicdn.com/tfscom/TB2pqTubVHzQeBjSZFsXXbGvXXa_!!647424941.jpg_180x180xzq90.jpg_.webp" alt="1" />
               <p>加厚保暖短毛绒四件套</p>
+              <i>短毛绒保暖四件套，非常小...</i>
           </li>
           <li>
               <img src="//img.alicdn.com/tfscom/TB2pqTubVHzQeBjSZFsXXbGvXXa_!!647424941.jpg_180x180xzq90.jpg_.webp" alt="1" />
               <p>加厚保暖短毛绒四件套</p>
+              <i>短毛绒保暖四件套，非常小...</i>
           </li>
           <li>
               <img src="//img.alicdn.com/tfscom/TB2pqTubVHzQeBjSZFsXXbGvXXa_!!647424941.jpg_180x180xzq90.jpg_.webp" alt="1" />
               <p>加厚保暖短毛绒四件套</p>
+              <i>短毛绒保暖四件套，非常小...</i>
           </li>
           <li>
               <img src="//img.alicdn.com/tfscom/TB2pqTubVHzQeBjSZFsXXbGvXXa_!!647424941.jpg_180x180xzq90.jpg_.webp" alt="1" />
               <p>加厚保暖短毛绒四件套</p>
+              <i>短毛绒保暖四件套，非常小...</i>
           </li>
           <li>
               <img src="//img.alicdn.com/tfscom/TB2pqTubVHzQeBjSZFsXXbGvXXa_!!647424941.jpg_180x180xzq90.jpg_.webp" alt="1" />
               <p>加厚保暖短毛绒四件套</p>
+              <i>短毛绒保暖四件套，非常小...</i>
           </li>
                   <div style={{clear:"both"}}></div>
         </ul>
