@@ -1,0 +1,33 @@
+.end{
+    height: 100px;
+    background-color: white;
+    p{
+        display: inline;
+        position: absolute;
+        text-align: center;
+        color: #ccccd0;
+        left: 50%;
+        width: 84px;
+        line-height: 20px;
+        font-size: 18px;
+        margin-left: -42px;
+        font-style: normal;
+        top: 45px;
+        &::before,&::after{
+            content: ' ';
+            position: absolute;
+            height: 0;
+            line-height: 0;
+            border-top: 1px solid #e6e6e6;
+            width: 60px;
+            top: 50%;
+            }
+        &::before{
+            left: -70px;
+        }
+        &::after{
+            right: -70px;
+        }
+    }
+
+}

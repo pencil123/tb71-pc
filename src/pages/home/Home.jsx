@@ -6,6 +6,7 @@ import Nav from "./Nav";
 import Flash from "./Flash";
 import Goods from "./goods";
 import Likes from './likes';
+import End from './end';
 import "./home.less";
 
 export class Home extends Component {
@@ -20,6 +21,7 @@ export class Home extends Component {
               <Flash />
               <Goods />
               <Likes />
+              <End />
             </div>
           </Col>
         </Row>
